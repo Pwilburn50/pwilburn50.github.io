@@ -1,0 +1,35 @@
+body {
+    background-color: blueviolet;
+}
+#first-paragraph {
+    color: aqua;
+    font-style: italic;
+}
+#bold-paragraph {
+    font-weight: bolder;
+}
+#second-paragraph {
+    background-color: brown;
+    font-size: 24px;
+}
+#span1 {
+    color: beige;
+    font-weight: bold;
+    font-size: 48px;
+}
+#span1 {
+    color: blue;
+    font-weight: bold;
+    font-size: 22px;
+}
+#span2 {
+    color: lawngreen;
+    font-style: italic;
+}
+#span3 {
+    background-color: rgb(140, 115, 106);
+}
+#span4 {
+    text-decoration: overline;
+    text-shadow: 0cqi;
+}
