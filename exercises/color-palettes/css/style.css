@@ -1,0 +1,76 @@
+#palette-1 {
+    font-family: cursive;
+    text-align: center;
+}
+
+#p1-c1 {
+    background-color: #7CFF00;
+    padding: 24px;
+    text-align: left;
+    font-family: cursive;
+    color: black;
+}
+
+#p1-c2 {
+    background-color:#98B37F ;
+    padding: 24px;
+    text-align: left;
+    font-family: cursive;
+    color: black;
+}
+
+#p1-c3 {
+    background-color:#E4F7D2 ;
+    padding: 24px;
+    text-align: left;
+    font-family: cursive;
+    color: black;
+}
+
+#p2-c1 {
+    background-color:#FF6700 ;
+    padding: 24px;
+    text-align: left;
+    font-family: cursive;
+    color: black;
+}
+
+#p2-c2 {
+    background-color:#7D8700 ;
+    padding: 24px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+#p2-c3 {
+    background-color:#C27D00 ;
+    padding: 24px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: black;
+}
+
+#p3-c1 {
+    background-color: #860D5F;
+    padding: 24px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(220, 206, 206);
+}
+
+#p3-c2 {
+    background-color: #6F4699;
+    padding: 24px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(220, 206, 206);
+}
+
+#p3-c3 {
+    background-color: #286DBF;
+    padding: 24px;
+    text-align: left;
+    font-family: 'Courier New', Courier, monospace;
+    color: rgb(220, 206, 206);
+}
