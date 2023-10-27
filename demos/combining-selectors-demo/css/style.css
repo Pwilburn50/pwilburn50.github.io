@@ -1,0 +1,26 @@
+navbar {
+    text-align: center;
+    padding: 23px;
+    background-color: blue;
+}
+#navbar a {
+    color: black;
+    text-decoration: none;
+}
+p a {
+    color: purple;
+}
+div.warning {
+    color: coral;
+}
+div a{
+    color: blueviolet;
+    font-size: 48px;
+    display: block;
+}
+ul {
+    color: green;
+}
+ul a{
+    color: grey;
+}
