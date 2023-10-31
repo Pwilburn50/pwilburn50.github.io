@@ -7,7 +7,75 @@
     Good luck, and have fun!
 */
 
+#license {
+    border: 2px solid black;
+    width: 700px;
+    background-color: orange;  
+}
 
+#left-side,
+#right-side {
+    display: inline-block;
+}
 
+#id-and-expiration div {
+    display: inline-block;
+}
 
+#small-pic, #data-fields {
+    display: inline-block;
+}
+
+#data-left, #dat-rigth {
+  display: inline-block;
+}
+
+#signiture {
+    text-align: center;
+}
+
+#donor, #real-id {
+    display: inline-block;
+}
+
+h1 {
+    color: blue;
+}
+
+#left-side img {
+    width: 100px;
+   
+}
+
+#address {
+    font-weight: bold;
+    padding: 8px;
+}
+#data-left div {
+    color: blue;
+}
+
+#data-right div {
+    color: blue;
+}
+
+span, #donor {
+    color: red;
+    font-style: bold;
+    text-align: center;
+}
+#signiture {
+    text-align: center;
+    font-family: cursive;
+}
+
+#right-side {
+    text-align: center;
+    margin: 0px 0px 0px 70px;
+}
+
+h4 {
+    color: white;
+    background-color: blue;
     
+}
