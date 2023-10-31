@@ -6,48 +6,8 @@
 
     Good luck, and have fun!
 */
-#license {
-    border-style: solid;
-    border: 25px 0px solid;
-    width: 650px;
-    background-color: orange;
-    display: inline-block;
-}
 
-#leftside {
-    display: inline-block ;
-    
-    width: 60;
-}
 
-#rightside {
-    display: inline-block;
-
-}
-
-#right-side img {
-    height: 200px;
-}
-#personal-info {
-    display: inline;
-}
-
-h1{
-    color: blue;
-    border-style: solid;
-    margin-top: 1px;
-    border-color: brown;
-}
-
-h4 {
-    background-color: blue;
-    color: white;
-    text-align: center;
-}
-
-#person-info {
-    display: inline-block;
-}
 
 
     
