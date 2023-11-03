@@ -1,0 +1,48 @@
+/* Drill 1 - Write your code solution below */
+#container-d1 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+/* Drill 2 - Write your code solution below */
+#container-d2 {
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+
+/* Drill 3 - Write your code solution below */
+#container-d3 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "one two three"
+    ;
+}
+
+#d3-cell1 {
+    grid-area: one;
+}
+#d3-cell1 {
+    grid-area: two;
+}
+#d3-cell1 {
+    grid-area: three;
+}
+
+/* Drill 4 - Write your code solution below */
+#container-dr {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-areas: 
+        "one two three"
+    ;
+
+    
+
+}
+
+/* Drill 5 - Write your code solution below */
+
+
+/* Drill 6 - Write your code solution below */
+
