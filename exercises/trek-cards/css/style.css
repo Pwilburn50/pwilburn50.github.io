@@ -9,7 +9,7 @@
 */
 .card-style-1 h2 {
     font-size: 36px;
-    margin top: 12px;
+    margin-top: 12px;
 }
 
 .card-style-1 img {
@@ -22,17 +22,14 @@
     border: 2px solid #f4f8f6;
     border-radius: 5px;
     padding: 10px;
-    box-shadow: -4px4px 12px #ddd;
+    box-shadow: -4px 4px 12px #ddd;
     background-color: #e0ebe5;
 }
 
 .card-style-1 p{
-    .card p {
-        font-size: 18px;}
-}
+    font-size: 18px;}
 
-a {
-    display: block;
+a  {display: block;
     background-color: rgb(36, 137, 43);
     color: rgb(248, 246, 246);
     text-decoration: none;
@@ -41,4 +38,4 @@ a {
     text-align: center;
     padding: 10px;
     border: 3px solid #1a7747;
-    transition:background-color .5s,color .5s;}
+    transition: background-color .5s,color .5s;}
