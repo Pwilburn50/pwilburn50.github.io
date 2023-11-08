@@ -55,7 +55,8 @@
     .metube-item .thumbnail-placeholder {
     aspect-ratio: 16 /9;
     background: radial-gradient(at top left, rgb(110, 88, 64), rgb(184, 113, 25));
-    order-radius: 8px;}
+    order-radius: 8px;
+    }
         
         
     .metube-item h4 {
