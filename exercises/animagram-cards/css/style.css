@@ -8,6 +8,21 @@
     of the setup.css styling if you do so.
 */
 
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: monospace;
+}
+
+#animagram-card-1 .animagram-header {
+    display: flex;
+    justify-content: space-between;
+    margin: 24px;
+    font-size: 30px;
+}
 .card-style-2  {
     width: 350px;
     border: 2px solid #fdfdfd;
@@ -24,4 +39,17 @@
     height: 250px;
     
 
+}
+
+h2 {
+    text-align: center;
+}
+
+.card-style-2 {
+    justify-content: space-between;
+    width: 350px;
+    margin: 48px;
+    border-radius: 20px;
+    padding: 10px;
+    background-color: white;
 }
