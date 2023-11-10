@@ -68,25 +68,8 @@
             
             
             
-            .comparisons-layout-2 {
-            background-color: #fe1818;padding: 36px;}
-            
-            .comparison-row {
-            display: flex;border-bottom: 3px solid #020203;color: #090a0b;}
-            
-            .comparison-row.comparison-header {
-            font-weight: bold;}
-            
-            .comparison-row div {
-            flex: 1;padding: 24px;font-size: 24px;}
+           
             
             
             
-            .comparisons-layout-3 {
-            display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;}
-
-            .comparisons-layout-3 div {
-                padding: 24px;font-size: 24px;border-bottom: 3px solid #3f0791;}
-                
-                .comparisons-layout-3 .label {
-                font-weight: bold;}
+           
