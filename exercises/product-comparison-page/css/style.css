@@ -8,7 +8,7 @@
     min-width: 600px;max-width: 1200px;margin: 0px auto;}
     
     #main-section {
-    background: radial-gradient(at top left, #d69d8f,#cbc7c7);padding: 48px;}
+    background: radial-gradient(at top left, #e67053,#c6eb76);padding: 48px;}
     
     
     
@@ -37,7 +37,56 @@
     font-weight: bold;
     text-decoration: none;
     display: inline-block;
-    background-color: #3f0791;
+    background-color: #f61111;
     color: white;
     padding: 24px 48px;
     border-radius: 48px;}
+
+    
+        
+        
+        
+        
+        .comparisons-layout-1 {
+        display: flex;justify-content: center;}
+        
+        .comparisons-layout-1 .comparison-column {
+        background-color: #a0aaad;border: 3px solid #0d0b0d;padding: 24px;}
+        
+        .comparisons-layout-1 .comparison-column h4,
+        .comparisons-layout-1 .comparison-column p {
+        padding: 24px 48px;}
+
+        .comparisons-layout-1 .comparison-column h4 {
+            background-color: #ed2222;color: #bfefff;font-size: 24px;margin: 0px}
+            
+            .comparisons-layout-1 .comparison-column p {
+            font-size: 18px;margin: 0px;border-top: 3px solid #020203;}
+            
+            .comparisons-layout-1 .comparison-column .label {
+            display: block;font-weight: bold;padding-bottom: 12px;}
+            
+            
+            
+            .comparisons-layout-2 {
+            background-color: #fe1818;padding: 36px;}
+            
+            .comparison-row {
+            display: flex;border-bottom: 3px solid #020203;color: #090a0b;}
+            
+            .comparison-row.comparison-header {
+            font-weight: bold;}
+            
+            .comparison-row div {
+            flex: 1;padding: 24px;font-size: 24px;}
+            
+            
+            
+            .comparisons-layout-3 {
+            display: grid;grid-template-columns: 1fr 1fr 1fr 1fr;}
+
+            .comparisons-layout-3 div {
+                padding: 24px;font-size: 24px;border-bottom: 3px solid #3f0791;}
+                
+                .comparisons-layout-3 .label {
+                font-weight: bold;}
