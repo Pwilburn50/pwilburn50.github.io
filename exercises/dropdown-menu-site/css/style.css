@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box
+}
+    
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+    
+#hero-1 {
+    background-image: url("../images/hero.jpg");
+    height: 100vh;background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+    
+#hero-1 h1 {
+    font-size: 5vw;
+    padding-left: 10vw;
+    color: white;
+}
+    
+    
+.spacer {
+    height: 100vh;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #293c23,#720e96);
+    display: flex;
+    align-items: center;
+}
+    
+#navbar a {
+    display: inline-block;
+    text-decoration: none;color: white;
+    padding: 24px;
+}
+    
+    #navbar a:hover {
+    background: linear-gradient(to top, #2a5b10,#720e96);
+}
+    
+    #navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+    
+.dropdown-container {
+    position: relative;
+}
+    
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s,visibility 0.25s;
+}
+    
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+    
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+    
+.dropdown-menu a {
+    background-color: darkslateblue;
+    width: 100%;
+    min-width: 200px;
+}
+    
+#navbar .dropdown-menu a:hover {
+    background: slateblue;
+}
+
+.center-column {
+    background-color: rgb(143, 146, 37);
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+    color: white;
+}
+
+.center-column img {
+    width: 100%;
+    margin-bottom: 01px;
+}
