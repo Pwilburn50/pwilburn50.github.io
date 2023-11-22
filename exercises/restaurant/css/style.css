@@ -1,0 +1,153 @@
+* {
+    box-sizing: border-box
+}
+    
+body {
+    margin: 0px;
+    font-family: sans-serif;
+    background-image: url("../images/paint.jpg") ;
+}
+    
+#hero-1 {
+    background-image: url("../images/burger.jpg");
+    height: 100vh;background-size: cover;
+    background-position: center center;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+    
+#hero-1 h1 {
+    font-size: 5vw;
+    padding-left: 10vw;
+    color: white;
+}
+    
+    
+.spacer {
+    height: 100vh;
+}
+
+#navbar {
+    background: linear-gradient(to bottom, #1f81ae,#5f808b);
+    display: flex;
+    align-items: center;
+}
+
+#navbar #logo img {
+    width: 75px;}
+    
+#navbar a {
+    display: inline-block;
+    text-decoration: none;color: white;
+    padding: 24px;
+}
+    
+    #navbar a:hover {
+    background: linear-gradient(to top, #2a5b10,#720e96);
+}
+    
+    #navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+    
+.dropdown-container {
+    position: relative;
+}
+    
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 0.25s,visibility 0.25s;
+}
+    
+.dropdown-container:last-child .dropdown-menu {
+    right: 0px;
+}
+    
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+    
+.dropdown-menu a {
+    background-color: darkslateblue;
+    width: 100%;
+    min-width: 200px;
+}
+    
+#navbar .dropdown-menu a:hover {
+    background: slateblue;
+}
+
+.center-column {
+    background-color: rgb(91, 157, 30);
+    width: 50%;
+    min-width: 500px;
+    margin: 0px auto;
+    color: rgb(11, 11, 11);
+}
+
+.center-column img {
+    width: 100%;
+    margin-bottom: 01px;
+}
+
+#footer {
+    background: linear-gradient(to bottom, rgb(0, 107, 128), #01480f);
+    color: white;
+    padding: 12px;
+}
+    
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+    
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+    
+    
+#layout {
+    width: 800px;
+    margin: 48px auto;
+    font-size: 24px;
+}
+
+.spacer {
+    height: 100vh;}
+    
+    #hero-2 {
+    background-image: url("../images/hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    display: flex;flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+    
+#hero-2 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+    color: white;
+}
+    
+    #hero-2 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;
+    color: white;
+}
+    
+    #hero-2 a {
+    font-size: 1.5vw;display: inline-block;background-color: #108610;color: white;text-decoration: none;padding: 24px;margin: 5vh 5vw 10vh 0px;}
