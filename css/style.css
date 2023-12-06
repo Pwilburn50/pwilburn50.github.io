@@ -5,7 +5,8 @@
 body {
     margin: 0px;
     padding: 0px;
-    background-image: url("../images/backG.jpg");
+    background-image: url("../images/back1.jpg");
+    color: white;
 }
 
 .frame {
@@ -28,12 +29,14 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: flex-end;}
+    align-items: flex-end;
+}
         
 #hero-2 h2 {
     font-size: 8vw;
     margin-bottom: 5vh;
-    margin-right: 5vw;}
+    margin-right: 5vw;
+}
         
 #hero-2 h4 {
     font-size: 3vw;
@@ -42,8 +45,8 @@ img {
 #hero-2 a {
     font-size: 1.5vw;
     display: inline-block;
-    background-color: #333333;
-    color: rgb(23, 156, 83);
+    background-color: rgb(180, 121, 12);
+    color: rgb(0, 0, 0);
     text-decoration: none;
     padding: 24px;
     margin: 5vh 5vw 10vh 0px;}
@@ -120,6 +123,142 @@ body {
             
 #navbar .dropdown-menu a:hover {
     background: rgb(58, 42, 161);
+}
+
+#main {
+    width: 90vw;
+    max-width: 800px;
+    margin: 48px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+h3 {
+    text-align: center;
+    margin: 24px 0;
+}
+    
+.card {
+    margin: 24px;
+    width: 350px;
+    border: 1.5px solid rgb(8, 97, 8);
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: -3px3px 10px #ddd;
+    background: linear-gradient(-50deg, #023f07,#456541,#072b06);
+}
+    
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+}
+    
+.card h2 {
+    font-size: 36px;
+    margin-top: 12px;
+    
+}
+    
+.card p {
+    font-size: 18px;
+}
+
+.anchor-button {
+    display: block;
+    background-color: rgb(236, 121, 6);
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    text-align: center;
+    padding: 10px;
+    border: 3px solid rgb(26, 10, 10);
+    transition:background-color .5s,color .5s;
+}
+    
+.anchor-button:hover {
+    background-color: transparent;
+    color: rgb(142, 95, 9);
+}
+
+.frame {
+    height: 1000px;
+}
+
+.frame img {
+    height: 100%;
+    object-fit: cover;
+}
+
+#hero-3 h4 {
+    font-size: 3vw;
+    margin: 0px 5vw 0px 0px;}
+        
+#hero-3 a {
+    font-size: 1.5vw;
+    display: inline-block;
+    background-color: rgb(180, 121, 12);
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    padding: 24px;
+    margin: 5vh 5vw 10vh 0px;
+}
+
+#hero-3 {
+    background-image: url("../images/newhero.jpg");
+    height: 100vh;
+    color: white;
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+            
+#hero-3 h2 {
+    font-size: 8vw;
+    margin-bottom: 5vh;
+    margin-right: 5vw;
+}
+
+.single-column {
+    min-width: 600px;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+    
+#card-section {
+    background-color: #58575a;
+    color: white;
+    padding: 48px;
+}
+    
+    
+.card-container {
+    display: flex;
+    justify-content: space-between;
+}
+    
+    
+.card {
+    flex: 1;
+    border: 3px solid #f89408;
+    padding: 36px;
+    text-align: center;
+    margin: 36px;
+}
+    
+.card h3 {
+    font-size: 36px;
+    margin: 0px;
+}
+    
+.card p {
+    font-size: 24px;
+    margin: 24px 0px 0px;
 }
         
       
